@@ -10,7 +10,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/linear"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
         >
 
@@ -39,7 +38,7 @@
                 android:gravity="center_horizontal"
                 android:letterSpacing="0.01"
                 android:lineSpacingExtra="6sp"
-                android:text="Earn Money"
+                android:text="@string/money"
                 android:textColor="#262628"
                 android:textSize="30sp" />
 
@@ -51,8 +50,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center_horizontal"
                 android:lineSpacingExtra="3sp"
-
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac vestibulum"
+                android:text="@string/money_details"
                 android:textSize="17sp" />
 
             <Button
@@ -62,7 +60,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/buttonformal"
-                android:text="GET STARTED"
+                android:text="@string/started"
                 android:layout_gravity="center"
                 android:textColor="#0a1f44"
                 android:textSize="17sp"

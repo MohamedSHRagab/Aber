@@ -39,7 +39,7 @@
                 android:gravity="center_horizontal"
                 android:letterSpacing="0.01"
                 android:lineSpacingExtra="6sp"
-                android:text="Enable Your Location"
+                android:text="@string/enable_location"
                 android:textColor="#262628"
                 android:textSize="30sp" />
 
@@ -53,8 +53,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center_horizontal"
                 android:lineSpacingExtra="3sp"
-                android:text="Choose your location to start find the
-        request around you."
+                android:text="تحديد موقعك الحالي لبدء خرائط جوجل ومعرفه اقرب خدمه حولك"
                 android:textSize="17sp" />
 
             <Button
@@ -65,7 +64,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
                 android:background="@drawable/buttonformal"
-                android:text="USE MY LOCATION"
+                android:text="@string/use_my_location"
                 android:textColor="#0a1f44"
                 android:textSize="17sp" />
 
@@ -77,7 +76,7 @@
                 android:layout_marginTop="20dp"
                 android:gravity="center_horizontal"
                 android:lineSpacingExtra="3sp"
-                android:text="Skip for now"
+                android:text="@string/skip_now"
                 android:layout_gravity="center"
                 android:textColor="#bec2ce"
                 android:textSize="17sp"

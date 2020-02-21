@@ -8,52 +8,25 @@
     tools:context=".spalsh">
 
 
-    <RelativeLayout
-        android:id="@+id/relative"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:contentDescription="TODO"
-            android:src="@drawable/group_63" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="90dp"
-            android:layout_centerInParent="true"
-            android:src="@drawable/group_26"
-            android:tint="@color/yellow" />
-
-    </RelativeLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_below="@id/relative"
         android:gravity="center"
+        android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
 
         >
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:src="@drawable/group_53"
-            android:tint="#242a37"
-            />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:src="@drawable/group_54"
-            android:tint="#242a37"
-            />
 
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo"
+            android:tint="#242a37"
+            />
 
 
     </LinearLayout>

@@ -24,7 +24,7 @@
         android:textColor="#242a37"
         android:letterSpacing="0.01"
         android:lineSpacingExtra="7sp"
-        android:text="Phone Verification"
+        android:text="@string/phone_vertify"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/back"
         android:layout_marginTop="30dp"
@@ -32,15 +32,16 @@
 
     <TextView
         android:id="@+id/description"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/title"
+        android:gravity="center"
         android:layout_alignStart="@id/title"
         android:layout_marginTop="20dp"
         android:lineSpacingExtra="3sp"
         android:textColor="#242a37"
         android:textSize="17sp"
-        android:text="Enter your OTP code here"
+        android:text="@string/enter_code"
         android:layout_alignLeft="@id/title" /> />
 
     <LinearLayout
@@ -99,7 +100,7 @@
         android:layout_below="@+id/linear"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
-        android:text="VERTIFY NOW"
+        android:text="@string/vertify"
         android:background="@drawable/buttonformal"
         android:textColor="#0a1f44"
         android:textSize="17sp"
